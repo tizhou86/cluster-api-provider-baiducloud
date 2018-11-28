@@ -4,15 +4,11 @@
 
 ### Binaries
 
-* cluster-api-controller: The one which has no dependencies with baiducloud provider.
-* cluster-controller: baiducloud cluster controller
-* machine-controller: baiducloud machine controller
-
-Those three controllers will be using Kubernetes native apis, they will be wrapped as CRD. 
+* cluster-api-controller: The one which has no dependencies with baiducloud provider, which includes the cluster controller and the machine controller.
 
 ### Dockerization and helm/charts for deployment
 
-We can dockerize the binaries and use helm/charts to deploy these three controllers into the cluster.
+We can dockerize the binaries and use helm/charts to deploy these three controllers into the cluster later.
 
 
 ## Installation
